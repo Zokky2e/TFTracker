@@ -1,0 +1,29 @@
+3/8/2019
+Created program.
+Archive made, connection finished, bugs found.
+
+4/8/2019
+Archive bugs fixed.
+Buttons for switching from archive to today made, not connected.
+Added program icon in the left corner.
+
+5/8/2019
+Buttons for switching from archive to today connected.
+
+6/8/2019
+Bug fixes, if changed, intro commands swapped.
+Edited the arhiva function, not finished.
+Arhiva function reverted.
+
+7/8/2019
+Arhiva function edited, finished the reverse print.
+Bug fixes.
+Added background image.
+
+31/1/2020
+Background picture bugs, removed picture for now.
+Fix in the future!
+
+11/12/2024
+Fixed background picture bugs, readded picture and moved elements.
+Changed the Copyrights year!
