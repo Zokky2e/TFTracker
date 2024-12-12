@@ -12,6 +12,7 @@ from PIL import ImageTk, Image
         for i in range (len (podaci)):
             dta.write(END, podaci [i])'''
 #=========.ulazna provjera.============
+baseY = 90
 podaci = []
 x = datetime.now()
 d = int(x.strftime("%d"))
@@ -79,12 +80,11 @@ def prosjek():
     pros = round((sum(num) / len(num)),2)
     if pros == 0:
         L8 = Label(vp, text = "0.00"+"\t\t\t",bg = "sandybrown")
-        L8.place(x=12, y=355)
+        L8.place(x=12, y=355+baseY)
     else:
         L8 = Label(vp, text = str(pros)+"\t\t",bg = "sandybrown")
-        L8.place(x=12, y=355)
+        L8.place(x=12, y=355+baseY)
 #=========.izgled.=============
-baseY = 90
 vp = Tk()
 vp.config(bg = "sandybrown")
 vp.geometry("315x500")
