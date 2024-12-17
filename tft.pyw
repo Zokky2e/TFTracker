@@ -17,11 +17,12 @@ podaci = []
 x = datetime.now()
 d = int(x.strftime("%d"))
 m = int(x.strftime("%m"))
+y = int(x.strftime("%Y"))
 with open ('datum.txt', 'r') as dt:
     d1 = int(dt.readline())
     m1 = int(dt.readline())
 if d1-d != 0 or m1-m != 0:
-    dy = datetime(2020,m1,d1)
+    dy = datetime(y,m1,d1)
     dy = dy.strftime("%x")
     with open("tft.txt", "r") as dt:
         for redak in dt:
